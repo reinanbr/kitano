@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
     readme = fh.read()
 
 setup(name='kitano',
-    version='0.0.1',
+    version='0.0.2',
     url='https://github.com/perseu912/kitano',
     license='MIT License',
     author='Reinan Br',
