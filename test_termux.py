@@ -4,7 +4,7 @@ sr = ShellRun()
 
 sr.prt = True
 
-print('android' in sr.resLine('uname -a'))
-sr.runLine('''apt upgrade 
+print('android' in sr.checkLine('uname -a'))
+sr.runLine('''apt update
 apt list''')
 

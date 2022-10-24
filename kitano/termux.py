@@ -16,7 +16,7 @@ class ShellRun:
 
 	prt = False
 
-	def resLine(self,command,inLine=True):
+	def checkLine(self,command,inLine=True):
 		resShell = subp.check_output(command.split(' '))
 	#	sys.stdout.write(resShell) 
 		resShell = ''.join(str(resShell).split("b'"))
@@ -32,5 +32,5 @@ class ShellRun:
 
 	def runLine(self,command):
 		#resShell = self.
-		command = command.replace('\n','&&')
+		command =' && '.join(command.split('\n')) #command.replace('\n',' && ')
 		os.system(command)

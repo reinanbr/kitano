@@ -4,4 +4,8 @@ from kitano import puts
 kt.show_date(True)
 
 
-puts('testing','...')
+#puts('testing','...')
+
+
+txt = '''oi
+amor'''
