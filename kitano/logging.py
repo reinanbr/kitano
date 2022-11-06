@@ -9,6 +9,8 @@ import time
 
 
 #get date
+
+
 def getDate(strfitTime:str='[%H:%M:%S %d/%m/%Y]') -> None:
 	datePrint = datetime.now().strftime(strfitTime)
 	return datePrint
@@ -27,9 +29,10 @@ def strPrt(strf:str=None) -> None:
 	strft = strf
 
 
-
+'''
 #lib for pritting
 def puts(*txt,sep=' '):
+	textShowing = ''
 	if len(txt) > 1:
 		textShowing = (sep).join([str(text) for text in txt])
 	if showDate:
@@ -43,3 +46,32 @@ def puts(*txt,sep=' '):
 
 	print(prtTxt)
 
+
+'''
+
+
+
+''' class Puts'''
+class Puts:
+	
+	def __init__(self):
+	  self.allDate = False
+	  self.showDate = True
+	  self.strfDate = False
+	  self.sep = ' '
+	  #pass
+	#lib for pritting
+	def puts(self,*txt):
+	  textShowing = txt
+	  if len(txt) > 1:
+	    textShowing = (self.sep).join([str(text) for text in txt])
+	  if self.showDate:
+	    if self.strfDate:
+	      datePrt = getDate(self.strfDate)
+	      prtTxt = f'{datePrt}: {textShowing}'
+	    else:
+	      datePrt = getDate('[%H:%m:%S %d/%m]')
+	      prtTxt = f'{datePrt}: {textShowing}'
+	  else:
+	    prtTxt = f'{textShowing}'
+	  print(prtTxt)

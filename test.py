@@ -1,11 +1,16 @@
-import kitano as kt
-from kitano import puts
-
-kt.show_date(True)
+#import kitano as kt
+from kitano import Puts
 
 
-#puts('testing','...')
+p = Puts()
+
+p.showDate = True
+
+puts = p.puts
 
 
-txt = '''oi
-amor'''
+
+
+
+puts('testing','...')
+
