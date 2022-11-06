@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "kitano"
+version = "0.0.6"
+description = "a lib for development in python"
+authors = ["ReinanBr"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
