@@ -2,12 +2,12 @@
 <p align='center'>
 <img height='200px' width='200px' src='https://raw.githubusercontent.com/gpftc/covid_br/main/covidbr/img/covidbr_logo.png'>
 <br/>
-<a href="https://github.com/perseu912"><img title="Autor" src="https://img.shields.io/badge/Autor-reinan_br-blue.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/reinanbr"><img title="Autor" src="https://img.shields.io/badge/Autor-reinan_br-blue.svg?style=for-the-badge&logo=github"></a>
 <br/>
 
 <p align='center'>
 <!-- github dados -->
-<a href='https://python.org'><img src='https://img.shields.io/github/pipenv/locked/python-version/reinanbr/kitano'></a>
+<!--<a href='https://python.org'><img src='https://img.shields.io/github/poetry/locked/python-version/reinanbr/kitano'></a>-->
 <a href='#'><img src='https://img.shields.io/github/languages/code-size/reinanbr/kitano'></a>
 <a href='#'><img src='https://img.shields.io/github/commit-activity/m/reinanbr/kitano'></a>
 <a href='#'><img src='https://img.shields.io/github/last-commit/reinanbr/kitano'></a>
@@ -33,4 +33,25 @@
 
 ```bash
 $ pip install kitano -U
+```
+
+<hr>
+<br>
+
+## Examples
+
+### printing
+
+```py
+from kitano import Puts
+p = Puts()
+p.showDate = True
+
+puts = p.puts
+
+puts('testing','...')
+```
+result:
+```sh
+[21:11:10 06/11]: testing ...
 ```
