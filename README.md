@@ -1,6 +1,7 @@
 <h1 align='center'>Kitano</h1>
 <p align='center'>
-<img height='200px' width='200px' src='https://raw.githubusercontent.com/gpftc/covid_br/main/covidbr/img/covidbr_logo.png'>
+<!-- 
+<img height='200px' width='200px' src='https://raw.githubusercontent.com/gpftc/covid_br/main/covidbr/img/covidbr_logo.png'> -->
 <br/>
 <a href="https://github.com/reinanbr"><img title="Autor" src="https://img.shields.io/badge/Autor-reinan_br-blue.svg?style=for-the-badge&logo=github"></a>
 <br/>
@@ -43,15 +44,21 @@ $ pip install kitano -U
 ### printing
 
 ```py
-from kitano import Puts
-p = Puts()
-p.showDate = True
+from kitano.logging import puts
+import kitano.logging as logg
 
-puts = p.puts
+strf = logg.strft
 
-puts('testing','...')
+print(strf)
+
+logg.str_date(strf)
+
+puts('testing...',file_log='app.log')
+
 ```
 result:
 ```sh
-[21:11:10 06/11]: testing ...
+
+[%d/%m/%Y %H:%M:%S]:
+[01/01/2023 22:48:06]: testing... 
 ```

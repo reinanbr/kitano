@@ -1,16 +1,11 @@
 #import kitano as kt
-from kitano import Puts
+from kitano.logging import puts
+import kitano.logging as logg
 
+strf = logg.strft
 
-p = Puts()
+print(strf)
 
-p.showDate = True
+logg.str_date(strf)
 
-puts = p.puts
-
-
-
-
-
-puts('testing','...')
-
+puts('testing...',file_log='app.log')
