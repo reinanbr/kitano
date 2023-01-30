@@ -1,6 +1,6 @@
 #import kitano as kt
-from kitano.logging import puts
-import kitano.logging as logg
+from kitano.logs.logging import puts
+import kitano.logs.logging as logg
 
 strf = logg.strft
 

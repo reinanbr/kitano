@@ -15,4 +15,4 @@ setup(name='kitano',
     keywords='kit tools dev works',
     description=u'Library for development and works in python3.9+',
     packages=find_packages(),
-    install_requires=[],)
+    install_requires=['colorama','requests','requests','mechanicalsoup','requests-html'],)

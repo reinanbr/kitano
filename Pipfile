@@ -4,6 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pytest = "*"
+requests = "*"
+mechanicalsoup = "*"
+requests-html = "*"
+colorama = "*"
 
 [dev-packages]
 

@@ -1,4 +1,4 @@
-from kitano.termux import ShellRun
+from kitano.bash.termux import ShellRun
 
 sr = ShellRun()
 
