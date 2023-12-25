@@ -27,7 +27,10 @@ def str_date(strftime:str=strft) -> None:
     return datePrint
 
 #lib for pritting
-def puts(*txt,sep=' ',end:str='\n',file_log:str=None,mode_write:str='a'):
+def puts(*txt,sep=' ',
+         end:str='\n',
+         file_log:str=None,
+         mode_write:str='a'):
 	"""one way for printing info
 
 	Args:

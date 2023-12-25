@@ -39,7 +39,7 @@ class SearchResult:
         return f"SearchResult(url={self.url}, title={self.title}, description={self.description})"
 
 
-def search(term, num_results=10, lang="en", proxy=None, advanced=False, sleep_interval=0):
+def test_search(term, num_results=10, lang="en", proxy=None, advanced=False, sleep_interval=0):
     escaped_term = term.replace(" ", "+")
 
     # Proxy
@@ -80,4 +80,3 @@ def search(term, num_results=10, lang="en", proxy=None, advanced=False, sleep_in
             print('oh shits. lats go again')
             search(term=term, num_results=num_results, lang=lang, proxy=proxy, advanced=advanced, sleep_interval=sleep_interval)
 
-print(search('cosmos filetype:pdf'))

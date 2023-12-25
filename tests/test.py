@@ -2,10 +2,11 @@
 from kitano.logs.logging import puts
 import kitano.logs.logging as logg
 
-strf = logg.strft
+def test_log():
+    strf = logg.strft
 
-print(strf)
+    print(strf)
 
-logg.str_date(strf)
+    logg.str_date(strf)
 
-puts('testing...',file_log='app.log')
+    puts('testing...',file_log='app.log')
