@@ -9,6 +9,7 @@ requests = "*"
 mechanicalsoup = "*"
 requests-html = "*"
 colorama = "*"
+setuptools = "*"
 
 [dev-packages]
 

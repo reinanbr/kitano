@@ -78,5 +78,5 @@ def test_search(term, num_results=10, lang="en", proxy=None, advanced=False, sle
             sleep(sleep_interval)
         except:
             print('oh shits. lats go again')
-            search(term=term, num_results=num_results, lang=lang, proxy=proxy, advanced=advanced, sleep_interval=sleep_interval)
+            test_search(term=term, num_results=num_results, lang=lang, proxy=proxy, advanced=advanced, sleep_interval=sleep_interval)
 
