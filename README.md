@@ -13,10 +13,13 @@
 <div align='center'>
 <!-- outros premios e analises -->
 <a href='#'><img alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/reinanbr/kitano?logo=codefactor"></a>
+<br/>
 <!-- github dados -->
-<a href='#'><img src='https://img.shields.io/github/languages/code-size/reinanbr/kitano'></a><a href='#'><img src='https://img.shields.io/github/commit-activity/m/reinanbr/kitano'></a><a href='#'><img src='https://img.shields.io/github/last-commit/reinanbr/kitano'></a>
+<a href='#'><img src='https://img.shields.io/github/languages/code-size/reinanbr/kitano'></a> <a href='#'><img src='https://img.shields.io/github/commit-activity/m/reinanbr/kitano'></a> <a href='#'><img src='https://img.shields.io/github/last-commit/reinanbr/kitano'></a>
+<br/>
 <!-- sites de pacotes -->
-<a href='https://pypi.org/project/kitano/'><img src='https://img.shields.io/pypi/v/kitano'></a><a href='#'><img src='https://img.shields.io/pypi/wheel/kitano'></a><a href='#'><img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/kitano"></a><a href='#'><img src='https://img.shields.io/pypi/implementation/kitano'></a>
+<a href='https://pypi.org/project/kitano/'><img src='https://img.shields.io/pypi/v/kitano'> </a><a href='#'><img src='https://img.shields.io/pypi/wheel/kitano'></a> <a href='#'><img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/kitano"></a> <a href='https://python.org'><img src='https://img.shields.io/github/pipenv/locked/python-version/reinanbr/kitano'>
+<br/>
 <!-- redes sociais -->
 <a href='https://instagram.com/gpftc_ifsfertao/'><img src='https://shields.io/badge/insta-gpftc_ifsertao-violet?logo=instagram&style=flat'></a>
 </div>
