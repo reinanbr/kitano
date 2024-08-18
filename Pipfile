@@ -5,9 +5,6 @@ name = "pypi"
 
 [packages]
 pytest = "*"
-requests = "*"
-mechanicalsoup = "*"
-requests-html = "*"
 colorama = "*"
 setuptools = "*"
 
