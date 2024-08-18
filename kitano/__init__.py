@@ -1,1 +1,1 @@
-from .logs.logging import *
+from kitano.logs import puts

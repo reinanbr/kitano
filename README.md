@@ -7,6 +7,10 @@
 <br/>
 
 <p align='center'>
+
+<!-- outros premios e analises -->
+<a href='#'><img alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/reinanbr/kitano?logo=codefactor"></a>
+<br/>
 <!-- github dados -->
 <!--<a href='https://python.org'><img src='https://img.shields.io/github/poetry/locked/python-version/reinanbr/kitano'></a>-->
 <a href='#'><img src='https://img.shields.io/github/languages/code-size/reinanbr/kitano'></a>
@@ -19,9 +23,6 @@
 <a href='#'><img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/kitano"></a>
 <a href='#'><img src='https://img.shields.io/pypi/implementation/kitano'></a>
 <br/>
-<!-- outros premios e analises -->
-<a href='#'><img alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/reinanbr/kitano?logo=codefactor">
-</a>
 <!-- redes sociais -->
 <br/>
 <a href='https://instagram.com/gpftc_ifsfertao/'><img src='https://shields.io/badge/insta-gpftc_ifsertao-violet?logo=instagram&style=flat'></a>
