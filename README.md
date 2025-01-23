@@ -59,3 +59,5 @@ result:
 [%d/%m/%Y %H:%M:%S]:
 [01/01/2023 22:48:06]: testing... 
 ```
+
+<img src="https://reysofts.com/evox/api/save_access_lib.php?key_lib=kitano_py">
